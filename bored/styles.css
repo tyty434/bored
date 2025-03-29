@@ -1,0 +1,119 @@
+h1 {
+    font-family: 'Bradley Hand', cursive;
+    font-size: 48px;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400% 400%;
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    animation: rainbow 10s linear infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%; 
+    }
+    25% {
+        background-position: 100% 50%;
+    }
+    50% {
+        background-position: 200% 50%;
+    }
+    75% {
+        background-position: 300% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+    
+h2 {
+    font-family: 'Bradley Hand', cursive;
+    font-size: 30px;
+    color: #ce65c9;
+    letter-spacing: 1px;
+    margin-top: 20px;
+
+    position: fixed;
+    top: 600px;
+    left: 700px;
+}
+
+button {
+    font-family: 'Bradley Hand', cursive;
+    position: relative;
+    top: 500px;
+    left: 650px;
+    border: none;
+    background-color: #e968de;
+    color: rgb(63, 17, 17);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px; 
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+
+}
+
+button:hover {
+    background-color: #92398b;
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none; 
+    box-shadow: 0 0 10px rgba(68, 17, 97, 0.5);
+}
+
+
+
+button1 {
+    font-family: 'Bradley Hand', cursive;
+    position: relative;
+    top: 500px;
+    left: 1025px;
+    border: none;
+    background-color: #e968de;
+    color: rgb(63, 17, 17);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px; 
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+
+}
+
+button1:hover {
+    background-color: #92398b;
+    transform: scale(1.05);
+}
+
+button1:focus {
+    outline: none; 
+    box-shadow: 0 0 10px rgba(68, 17, 97, 0.5);
+}
+
+.moving-gif {
+    position: fixed;
+    right: 760px; /* Adjust position as needed */
+    top: 200px; /* Adjust position as needed */
+    width: 400px;        
+    height: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
